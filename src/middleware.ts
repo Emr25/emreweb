@@ -1,7 +1,7 @@
 import createMiddleware from "next-intl/middleware";
 import { routing } from "./i18n/routing";
 
-// Tarayıcı Accept-Language ile varsayılan dili (de) ezmesin; ilk yüklemede Almanca.
+// Tarayıcı dili varsayılanı (tr) ezmesin; ilk yüklemede Türkçe.
 export default createMiddleware({
   ...routing,
   localeDetection: false,
