@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600">
+  <!-- Türkiye bayra??: #E30A17 k?rm?z?, beyaz hilal ve y?ld?z -->
+  <rect width="900" height="600" fill="#E30A17"/>
+  <g fill="#ffffff">
+    <circle cx="337.5" cy="300" r="122.5"/>
+    <circle cx="393.75" cy="300" r="102.5" fill="#E30A17"/>
+  </g>
+  <g fill="#ffffff" transform="translate(455 300) rotate(-16.5)">
+    <!-- düzenli be? kö?eli y?ld?z -->
+    <path d="M0,-40 L9.51,-12.36 L38.04,-12.36 L15.27,4.72 L24.49,36.36 L0,22 L-24.49,36.36 L-15.27,4.72 L-38.04,-12.36 L-9.51,-12.36 Z"/>
+  </g>
+</svg>

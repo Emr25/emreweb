@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "title": "UzunWerk — Yazılım, E-Ticaret ve Yapay Zeka Çözümleri",
+    "description": "E-ticaret, kurumsal web ve müşteriye özel chatbot geliştiren yazılım ekibi."
+  },
+  "nav": {
+    "services": "Hizmetler",
+    "about": "Hakkımızda",
+    "ceo": "Kurucu",
+    "projects": "Projeler",
+    "ai": "AI Laboratuvarı",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "badge": "Yazılım stüdyosu",
+    "title": "Dijital ürünlerinizi bir üst seviyeye taşıyoruz",
+    "subtitle": "E-ticaret platformları, ölçeklenebilir web uygulamaları ve markanıza özel akıllı chatbot çözümleri ile işinizi hızlandırıyoruz.",
+    "ctaPrimary": "Projelerimizi gör",
+    "ctaSecondary": "Bize ulaşın"
+  },
+  "services": {
+    "title": "Ne yapıyoruz?",
+    "subtitle": "Uçtan uca yazılım ve deneyim tasarımı — tek ekip, tutarlı kalite.",
+    "ecommerce": {
+      "title": "E-Ticaret",
+      "desc": "Ödeme entegrasyonları, stok ve sipariş yönetimi, hızlı ve güvenli mağaza deneyimleri."
+    },
+    "web": {
+      "title": "Web siteleri & uygulamalar",
+      "desc": "Kurumsal siteler, portallar ve modern React/Next.js tabanlı performans odaklı arayüzler."
+    },
+    "chatbot": {
+      "title": "Özel chatbot",
+      "desc": "Müşterilerinize 7/24 destek veren, bilgi tabanınıza bağlı yapay zeka asistanları."
+    }
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "lead": "UzunWerk, fikirden canlıya uzanan süreçte yanınızda olan bir yazılım ekibidir.",
+    "p1": "Küçük ama deneyimli bir ekibiz. Karmaşık projeleri sadeleştirir, ölçülebilir mimari ve temiz kod ile teslim ederiz.",
+    "p2": "Her müşteri için şeffaf iletişim, düzenli demo oturumları ve ölçülebilir kilometre taşları sunuyoruz.",
+    "stat1": "Yıllık deneyim",
+    "stat2": "Tamamlanan proje",
+    "stat3": "Memnuniyet odağı"
+  },
+  "ceo": {
+    "eyebrow": "Liderlik",
+    "title": "Kurucu & CEO",
+    "subtitle": "Yapay zeka ve yazılım mühendisliği deneyimini iş hedeflerinizle birleştiriyoruz.",
+    "initials": "EU",
+    "name": "Emre Uzun",
+    "role": "Kurucu & CEO, UzunWerk",
+    "p1": "Emre Uzun, Bandırma Onyedi Eylül Üniversitesi Yönetim Bilişim Sistemleri bölümünden mezun olmuştur; akademik altyapısını veri, süreç ve iş analitiği odaklı bir çerçevede geliştirmiştir.",
+    "p2": "Mezuniyetinin ardından İstanbul’da faaliyet gösteren bir yazılım şirketinde bir yıl boyunca AI Developer olarak görev almış; yapay zeka destekli ürün geliştirme ve mühendislik pratiğini sahada edinmiştir.",
+    "p3": "Halihazırda kendi yazılım şirketini kurma hedefiyle UzunWerk’i ileri taşımakta; müşterilere güvenilir, ölçeklenebilir ve yenilikçi dijital çözümler sunmayı önceliklendirmektedir.",
+    "cards": {
+      "edu": {
+        "label": "Öğrenim",
+        "value": "Bandırma Onyedi Eylül Üniversitesi — Yönetim Bilişim Sistemleri"
+      },
+      "experience": {
+        "label": "Profesyonel deneyim",
+        "value": "İstanbul, yazılım şirketi — AI Developer (1 yıl)"
+      },
+      "focus": {
+        "label": "Odak",
+        "value": "Kendi yazılım şirketini kurma ve uçtan uca ürün teslimi"
+      }
+    }
+  },
+  "projects": {
+    "title": "Örnek Yaptığımız İşler",
+    "subtitle": "İş hedeflerine göre tasarlanıp hayata geçirilmiş seçili referanslarımız.",
+    "items": {
+      "one": {
+        "title": "Alyel Group Sigorta",
+        "desc": "Üyelik tabanlı sigorta satışı için web platformu: güven veren arayüz, sade akışlar ve operasyonel hız."
+      },
+      "two": {
+        "title": "PoliPool — Sigorta OCR",
+        "desc": "Sigorta evraklarında OCR ve görüntü işleme ile PDF’den yapılandırılmış veri çıkarımı ve süreç otomasyonu."
+      },
+      "three": {
+        "title": "Kahta Yöresel — Lezzetli Marka",
+        "desc": "Yöresel kuruyemiş ve lezzet ürünleri için marka odaklı katalog, keşif ve sipariş deneyimi; dönüşüm ve hız için optimize arayüz."
+      },
+      "four": {
+        "title": "TonerTR — Baskı Merkezi",
+        "desc": "Yazıcı ve tüketim malzemelerinde geniş stok görünürlüğü; kurumsal ve bireysel müşteriler için net ürün keşfi ve sipariş süreci."
+      }
+    },
+    "visit": "Siteyi aç"
+  },
+  "contact": {
+    "title": "Birlikte çalışalım",
+    "subtitle": "Projenizi yazın. Anında size geri dönüş yapalım.",
+    "email": "emrecanuzun2525@gmail.com",
+    "briefTitle": "Hızlı brif oluştur",
+    "briefSubtitle": "Seçime göre mail taslağı hazırlayalım.",
+    "types": {
+      "web": "Web / Portal",
+      "ecommerce": "E-Ticaret",
+      "chatbot": "Chatbot / AI"
+    },
+    "compose": "Mail taslağı",
+    "preview": "Kısaca önizleme",
+    "mailCta": "Maili oluştur",
+    "copy": "E-postayı kopyala",
+    "copied": "Kopyalandı",
+    "emailSubject": "{type} - UzunWerk",
+    "emailBodyIntro": "Merhaba, aşağıdaki konuda bilgi almak istiyorum:",
+    "emailBodyClosing": "Uygunsa, kısa bir görüşme planlayabiliriz. Teşekkürler."
+  },
+  "footer": {
+    "tagline": "UzunWerk — yazılım, deneyim, ölçek.",
+    "rights": "Tüm hakları saklıdır."
+  },
+  "ai": {
+    "title": "Hareketli AI Simülatörü",
+    "subtitle": "Fareyi orb üzerinde gezdirin. Yazdıklarınıza göre asistanın 'simüle' yanıtını ve hareketini görün.",
+    "orbTitle": "AI Orb",
+    "orbHint": "Etkileşimli",
+    "chatTitle": "AI Sohbeti",
+    "chatSubtitle": "Gerçek API yok: tamamen simülasyon.",
+    "simulationBadge": "SIMÜLASYON",
+    "welcome": "Merhaba! İstersen e-ticaret, web sitesi veya chatbot tarafında fikrini yaz; ben de simüle bir yol haritası çıkarayım.",
+    "prompt1": "Chatbot",
+    "prompt1_value": "Müşterilerime bilgi tabanına bağlı bir chatbot istiyorum.",
+    "prompt2": "E-Ticaret",
+    "prompt2_value": "Ödeme ve sipariş yönetimi olan bir e-ticaret altyapısı kurmak istiyorum.",
+    "prompt3": "Web & Landing",
+    "prompt3_value": "Dönüşüm odaklı bir landing sayfası tasarlamak istiyorum.",
+    "inputLabel": "Mesaj",
+    "placeholder": "Örn: chatbot nasıl olur?",
+    "send": "Gönder",
+    "footnote": "Yanıtlar simülasyon amaçlıdır (gerçek LLM çağrısı yok).",
+    "thinking": "Düşünüyor...",
+    "ready": "Hazırım!",
+    "typing": "Yazıyor...",
+    "responses": {
+      "chatbot": "Kulağa iyi geliyor. Chatbot'u bilgi tabanına bağlamak için 3 adım önerebilirim: (1) konu/yanıt şeması, (2) yanıtları güvenli hale getiren filtreler, (3) analitik ile sürekli iyileştirme. Hedefin nedir: müşteri desteği mi, satış mı?",
+      "ecommerce": "E-ticaret için hızlı bir temel kuralım: ödeme entegrasyonu, stok/sipariş akışı ve performans ölçümü. Ardından çok dilli arayüz ve admin panel ile büyümeyi planlayabiliriz. Hangi ödeme sağlayıcılarını düşünüyorsun?",
+      "web": "Landing & web için önerim: mesaj hiyerarşisi, hızlı yükleme ve ölçülebilir CTA akışı. Sonrasında A/B test ile dönüşümü artırırız. Site dili ve hedef kitle kim?",
+      "default": "Süper! Hızlıca niyetini yakalayayım: hedefin ne ve kullanıcılar sitede ne yapmak istiyor? İstersen 2-3 cümleyle projeni anlat, sana simüle bir plan çıkarayım."
+    }
+  }
+}

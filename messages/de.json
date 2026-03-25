@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "title": "UzunWerk — Software, E-Commerce & KI-Lösungen",
+    "description": "E-Commerce, Unternehmenswebseiten und maßgeschneiderte Chatbots für Ihre Kunden."
+  },
+  "nav": {
+    "services": "Leistungen",
+    "about": "Über uns",
+    "ceo": "Gründer",
+    "projects": "Projekte",
+    "ai": "AI-Labor",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "badge": "Software-Studio",
+    "title": "Wir heben Ihre digitalen Produkte auf das nächste Level",
+    "subtitle": "E-Commerce-Plattformen, skalierbare Web-Apps und intelligente Chatbots, die Ihr Geschäft voranbringen.",
+    "ctaPrimary": "Unsere Arbeit",
+    "ctaSecondary": "Kontakt aufnehmen"
+  },
+  "services": {
+    "title": "Was wir tun",
+    "subtitle": "End-to-end Software und Experience Design — ein Team, durchgängige Qualität.",
+    "ecommerce": {
+      "title": "E-Commerce",
+      "desc": "Zahlungsintegrationen, Bestands- und Auftragsverwaltung, schnelle und sichere Shop-Erlebnisse."
+    },
+    "web": {
+      "title": "Websites & Apps",
+      "desc": "Unternehmensseiten, Portale und performante Oberflächen auf modernem React/Next.js."
+    },
+    "chatbot": {
+      "title": "Individueller Chatbot",
+      "desc": "KI-Assistenten an Ihre Wissensbasis angebunden — Support rund um die Uhr."
+    }
+  },
+  "about": {
+    "title": "Über uns",
+    "lead": "UzunWerk ist das Software-Team, das Sie von der Idee bis zum Go-live begleitet.",
+    "p1": "Wir sind ein kleines, erfahrenes Team. Wir vereinfachen komplexe Projekte und liefern mit skalierbarer Architektur und sauberem Code.",
+    "p2": "Für jeden Kunden: transparente Kommunikation, regelmäßige Demos und messbare Meilensteine.",
+    "stat1": "Jahre Erfahrung",
+    "stat2": "Abgeschlossene Projekte",
+    "stat3": "Fokus auf Zufriedenheit"
+  },
+  "ceo": {
+    "eyebrow": "Führung",
+    "title": "Gründer & CEO",
+    "subtitle": "KI-Engineering und klare Geschäftsergebnisse zusammenbringen.",
+    "initials": "EU",
+    "name": "Emre Uzun",
+    "role": "Gründer & CEO, UzunWerk",
+    "p1": "Emre Uzun hat an der Bandırma Onyedi Eylül Universität Wirtschaftsinformatik (Management Information Systems) studiert und ein solides Verständnis für Daten, Prozesse und Business Analytics.",
+    "p2": "Nach dem Abschluss war er ein Jahr lang in Istanbul als AI Developer in einem Softwareunternehmen tätig und hat KI-gestützte Produkte sowie die operative Lieferung im Team vorangetrieben.",
+    "p3": "Derzeit konzentriert er sich darauf, unter UzunWerk ein eigenes Softwareunternehmen aufzubauen und verlässliche, skalierbare und innovative digitale Lösungen für Kunden zu liefern.",
+    "cards": {
+      "edu": {
+        "label": "Ausbildung",
+        "value": "Bandırma Onyedi Eylül Universität — Wirtschaftsinformatik"
+      },
+      "experience": {
+        "label": "Berufserfahrung",
+        "value": "Istanbul, Softwareunternehmen — AI Developer (1 Jahr)"
+      },
+      "focus": {
+        "label": "Schwerpunkt",
+        "value": "Gründung eines Softwareunternehmens und End-to-End-Produktlieferung"
+      }
+    }
+  },
+  "projects": {
+    "title": "Ausgewählte Arbeiten",
+    "subtitle": "Ausgewählte Referenzen — konzipiert und umgesetzt entlang klarer Geschäftsziele.",
+    "items": {
+      "one": {
+        "title": "Alyel Group Sigorta",
+        "desc": "Webplattform für mitgliedschaftsbasierten Versicherungsvertrieb: vertrauenswürdiges UI, klare Prozesse und Tempo in der Abwicklung."
+      },
+      "two": {
+        "title": "PoliPool — Versicherungs-OCR",
+        "desc": "OCR und Bildverarbeitung für Versicherungsunterlagen: strukturierte Daten aus PDFs und Automatisierung der Abläufe."
+      },
+      "three": {
+        "title": "Kahta Yöresel — Spezialitätenmarke",
+        "desc": "Markenstarke Präsentation regionaler Nüsse und Delikatessen—Katalog, Entdeckung und Bestellung mit Fokus auf Conversion."
+      },
+      "four": {
+        "title": "TonerTR — Druck- & Verbrauchsmaterial",
+        "desc": "Hohe Transparenz bei Druckern und Verbrauchsmaterial; klare Produktsuche und Bestelllogik für Business und Endkunden."
+      }
+    },
+    "visit": "Website öffnen"
+  },
+  "contact": {
+    "title": "Lassen Sie uns zusammenarbeiten",
+    "subtitle": "Erzählen Sie von Ihrem Projekt — wir antworten sofort.",
+    "email": "emrecanuzun2525@gmail.com",
+    "briefTitle": "Schnellen Brief erstellen",
+    "briefSubtitle": "Wähle eine Kategorie und wir bereiten einen Mail-Entwurf vor.",
+    "types": {
+      "web": "Web / Portal",
+      "ecommerce": "E-Commerce",
+      "chatbot": "Chatbot / AI"
+    },
+    "compose": "Mail-Entwurf",
+    "preview": "Kurze Vorschau",
+    "mailCta": "Mail erstellen",
+    "copy": "E-Mail kopieren",
+    "copied": "Kopiert",
+    "emailSubject": "{type} - UzunWerk",
+    "emailBodyIntro": "Hallo, ich möchte mehr Informationen erhalten über:",
+    "emailBodyClosing": "Wenn es passt, können wir einen kurzen Termin planen. Vielen Dank!"
+  },
+  "footer": {
+    "tagline": "UzunWerk — Software, Experience, Skalierung.",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "ai": {
+    "title": "Interaktiver AI-Simulator",
+    "subtitle": "Bewege das Orb mit der Maus. Sieh die simulierte Antwort und Bewegung basierend auf deinem Text.",
+    "orbTitle": "AI Orb",
+    "orbHint": "Interaktiv",
+    "chatTitle": "AI-Chat",
+    "chatSubtitle": "Kein echtes API: komplett simuliert.",
+    "simulationBadge": "SIMULATION",
+    "welcome": "Hallo! Schreib mir eine Idee (E-Commerce, Website oder Chatbot) und ich erstelle eine simulierte Roadmap.",
+    "prompt1": "Chatbot",
+    "prompt1_value": "Ich möchte einen Chatbot für Kunden, angebunden an meine Wissensdatenbank.",
+    "prompt2": "E-Commerce",
+    "prompt2_value": "Ich möchte eine E-Commerce-Lösung mit Zahlungen und Bestellverwaltung.",
+    "prompt3": "Web & Landing",
+    "prompt3_value": "Ich möchte eine Conversion-starke Landingpage entwerfen.",
+    "inputLabel": "Nachricht",
+    "placeholder": "z.B.: wie würde ein Chatbot funktionieren?",
+    "send": "Senden",
+    "footnote": "Antworten sind nur für die Simulation (keine echten LLM-Aufrufe).",
+    "thinking": "Denkt nach...",
+    "ready": "Bereit!",
+    "typing": "Tippt...",
+    "responses": {
+      "chatbot": "Klingt gut. Für einen Chatbot kann ich 3 Schritte vorschlagen: (1) Intents & Antwortstruktur, (2) Sicherheits- und Qualitätsfilter, (3) kontinuierliche Verbesserung über Analytics. Was ist dein Ziel: Support oder Vertrieb?",
+      "ecommerce": "Für E-Commerce legen wir einen stabilen Start: Zahlungsintegration, Inventory/Bestell-Flow und Performance-Messung. Danach skalieren wir mit mehrsprachigem UI und Admin-Panel. Welche Payment-Provider sind geplant?",
+      "web": "Für Landing/Web: klare Message-Hierarchie, schnelle Ladezeiten und ein messbarer CTA-Flow. Danach verbessern wir die Conversion mit A/B-Tests. Wer ist deine Zielgruppe und in welcher Sprache?",
+      "default": "Super! Lass mich deine Absicht kurz erfassen: Was willst du bauen und was sollen Nutzer auf der Seite tun? Schreib 2-3 Sätze, dann simuliere ich einen Plan."
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "title": "UzunWerk — Software, E-Commerce & AI Solutions",
+    "description": "We build e-commerce, corporate web, and custom AI chatbots for your customers."
+  },
+  "nav": {
+    "services": "Services",
+    "about": "About",
+    "ceo": "Founder",
+    "projects": "Projects",
+    "ai": "AI Lab",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Software studio",
+    "title": "We take your digital products to the next level",
+    "subtitle": "E-commerce platforms, scalable web apps, and bespoke intelligent chatbots that move your business forward.",
+    "ctaPrimary": "See our work",
+    "ctaSecondary": "Get in touch"
+  },
+  "services": {
+    "title": "What we do",
+    "subtitle": "End-to-end software and experience design — one team, consistent quality.",
+    "ecommerce": {
+      "title": "E-Commerce",
+      "desc": "Payments, inventory and order management, fast and secure storefront experiences."
+    },
+    "web": {
+      "title": "Websites & apps",
+      "desc": "Corporate sites, portals, and performance-focused interfaces on modern React/Next.js stacks."
+    },
+    "chatbot": {
+      "title": "Custom chatbot",
+      "desc": "AI assistants connected to your knowledge base, supporting customers around the clock."
+    }
+  },
+  "about": {
+    "title": "About us",
+    "lead": "UzunWerk is the software team that stays with you from idea to launch.",
+    "p1": "We are a small, experienced team. We simplify complex projects and ship with scalable architecture and clean code.",
+    "p2": "For every client we offer transparent communication, regular demos, and measurable milestones.",
+    "stat1": "Years experience",
+    "stat2": "Projects delivered",
+    "stat3": "Client focus"
+  },
+  "ceo": {
+    "eyebrow": "Leadership",
+    "title": "Founder & CEO",
+    "subtitle": "Combining AI engineering experience with clear business outcomes.",
+    "initials": "EU",
+    "name": "Emre Uzun",
+    "role": "Founder & CEO, UzunWerk",
+    "p1": "Emre Uzun holds a degree in Management Information Systems from Bandırma Onyedi Eylül University, with a strong foundation in data, processes, and business analytics.",
+    "p2": "After graduation, he spent one year in Istanbul as an AI Developer at a software company, building AI-assisted products and strengthening hands-on engineering delivery.",
+    "p3": "He is now focused on establishing his own software company under UzunWerk—prioritizing reliable, scalable, and innovative digital solutions for clients.",
+    "cards": {
+      "edu": {
+        "label": "Education",
+        "value": "Bandırma Onyedi Eylül University — Management Information Systems"
+      },
+      "experience": {
+        "label": "Experience",
+        "value": "Istanbul, software company — AI Developer (1 year)"
+      },
+      "focus": {
+        "label": "Focus",
+        "value": "Founding a software company and end-to-end product delivery"
+      }
+    }
+  },
+  "projects": {
+    "title": "Selected Work We Deliver",
+    "subtitle": "A curated set of engagements designed and shipped against real business objectives.",
+    "items": {
+      "one": {
+        "title": "Alyel Group Sigorta",
+        "desc": "A membership-driven insurance sales platform on the web: trustworthy UI, clear flows, and operational speed."
+      },
+      "two": {
+        "title": "PoliPool — Insurance OCR",
+        "desc": "OCR and image processing for insurance documents: structured data extraction from PDFs and workflow automation."
+      },
+      "three": {
+        "title": "Kahta Yöresel — Specialty Brand",
+        "desc": "Brand-forward catalog and ordering for regional nuts and delicacies—discovery and checkout tuned for conversion."
+      },
+      "four": {
+        "title": "TonerTR — Print & Supplies Hub",
+        "desc": "Broad visibility for printers and consumables; crisp product discovery and ordering for business and retail buyers."
+      }
+    },
+    "visit": "Open site"
+  },
+  "contact": {
+    "title": "Let’s work together",
+    "subtitle": "Tell us about your project — we respond instantly.",
+    "email": "emrecanuzun2525@gmail.com",
+    "briefTitle": "Generate a quick brief",
+    "briefSubtitle": "Pick a type and we’ll prepare a mail draft.",
+    "types": {
+      "web": "Web / Portal",
+      "ecommerce": "E-Commerce",
+      "chatbot": "Chatbot / AI"
+    },
+    "compose": "Mail draft",
+    "preview": "Short preview",
+    "mailCta": "Create mail",
+    "copy": "Copy email",
+    "copied": "Copied",
+    "emailSubject": "{type} - UzunWerk",
+    "emailBodyIntro": "Hi, I’d like to get more information about:",
+    "emailBodyClosing": "If it fits, we can schedule a short call. Thanks!"
+  },
+  "footer": {
+    "tagline": "UzunWerk — software, experience, scale.",
+    "rights": "All rights reserved."
+  },
+  "ai": {
+    "title": "Interactive AI Simulator",
+    "subtitle": "Move the orb with your mouse. See the assistant's simulated response and motion based on what you type.",
+    "orbTitle": "AI Orb",
+    "orbHint": "Interactive",
+    "chatTitle": "AI Chat",
+    "chatSubtitle": "No real API: fully simulated.",
+    "simulationBadge": "SIMULATION",
+    "welcome": "Hi! Write what you want (e-commerce, a website, or a chatbot) and I'll generate a simulated roadmap.",
+    "prompt1": "Chatbot",
+    "prompt1_value": "I want a chatbot for my customers connected to a knowledge base.",
+    "prompt2": "E-Commerce",
+    "prompt2_value": "I want an e-commerce setup with payments and order management.",
+    "prompt3": "Web & Landing",
+    "prompt3_value": "I want to design a conversion-focused landing page.",
+    "inputLabel": "Message",
+    "placeholder": "e.g., how would a chatbot work?",
+    "send": "Send",
+    "footnote": "Responses are for simulation only (no real LLM calls).",
+    "thinking": "Thinking...",
+    "ready": "Ready!",
+    "typing": "Typing...",
+    "responses": {
+      "chatbot": "Sounds good. For a chatbot, I can suggest 3 steps: (1) intent + answer structure, (2) safety filters for responses, (3) continuous improvement using analytics. What is your goal: support or sales?",
+      "ecommerce": "For e-commerce, let's set a solid baseline: payment integration, inventory/order flow, and performance measurement. Then we can scale with a multi-language UI and an admin panel. Which payment providers are you considering?",
+      "web": "For a landing/web experience: message hierarchy, fast loading, and a measurable CTA flow. After that, we improve conversion with A/B testing. Who is your audience, and what language?",
+      "default": "Great! Let me capture your intent quickly: what do you want to build, and what should users do on the site? Share 2-3 sentences and I'll simulate a plan."
+    }
+  }
+}
