@@ -76,7 +76,6 @@ export function AboutSection() {
             <div className="absolute -inset-4 rounded-3xl bg-gradient-to-br from-cyan-500/20 via-transparent to-violet-600/20 blur-2xl" />
             <div className="relative grid grid-cols-2 gap-4 rounded-2xl border border-white/10 bg-zinc-900/40 p-6 backdrop-blur-md sm:p-8">
               {[
-                { value: 8, suffix: "+", label: t("stat1") },
                 { value: 40, suffix: "+", label: t("stat2") },
                 { value: 100, suffix: "%", label: t("stat3") },
               ].map((s, i) => (
@@ -86,7 +85,7 @@ export function AboutSection() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: 0.15 + i * 0.08 }}
-                  className={`rounded-xl border border-white/5 bg-black/30 p-5 ${i === 2 ? "col-span-2" : ""}`}
+                  className="rounded-xl border border-white/5 bg-black/30 p-5"
                   whileHover={{ scale: 1.02, borderColor: "rgba(34,211,238,0.25)" }}
                 >
                   <div className="font-display text-3xl font-bold text-white sm:text-4xl">

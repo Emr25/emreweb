@@ -3,6 +3,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { DM_Sans, Syne } from "next/font/google";
+import Script from "next/script";
 import { routing } from "@/i18n/routing";
 import "../globals.css";
 
@@ -64,6 +65,11 @@ export default async function LocaleLayout({ children, params }: Props) {
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>
+        <Script
+          src="https://exragpro.vercel.app/embed.js"
+          strategy="afterInteractive"
+          data-public-key="pk_37de78f660714c6c9702f9aace8ad9e1"
+        />
       </body>
     </html>
   );
