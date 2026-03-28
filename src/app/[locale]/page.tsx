@@ -3,6 +3,7 @@ import { AnimatedBackground } from "@/components/animated-background";
 import { SiteHeader } from "@/components/site-header";
 import { HeroSection } from "@/components/hero-section";
 import { AiSimulatorSection } from "@/components/ai-simulator";
+import { ExragPlatformSection } from "@/components/exrag-platform-section";
 import { ServicesSection } from "@/components/services-section";
 import { AboutSection } from "@/components/about-section";
 import { CeoSection } from "@/components/ceo-section";
@@ -26,6 +27,7 @@ export default async function HomePage({ params }: Props) {
       <main>
         <HeroSection />
         <AiSimulatorSection />
+        <ExragPlatformSection />
         <ServicesSection />
         <AboutSection />
         <ProjectsSection />

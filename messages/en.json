@@ -142,5 +142,18 @@
       "web": "For a landing/web experience: message hierarchy, fast loading, and a measurable CTA flow. After that, we improve conversion with A/B testing. Who is your audience, and what language?",
       "default": "Great! Let me capture your intent quickly: what do you want to build, and what should users do on the site? Share 2-3 sentences and I'll simulate a plan."
     }
+  },
+  "exrag": {
+    "eyebrow": "ExRAG — assistant platform",
+    "title": "Our priority: personal assistants & chatbots",
+    "lead": "UzunWerk’s primary focus is bespoke personal assistants and intelligent chatbots for your brand. With ExRAG, connect company knowledge from PDFs to RAG and embed a widget on your site with a single script line.",
+    "demoHint": "Want to see it live? We can schedule a short demo — just reach out via contact.",
+    "f1": "Upload PDFs in the dashboard; grounded, context-aware answers",
+    "f2": "Embeddable widget — no separate server required",
+    "f3": "Company console and public-key multi-tenant setup",
+    "ctaPlatform": "Open ExRAG platform",
+    "ctaDemo": "Request a demo",
+    "brandLine": "UzunWerk Personal Assistant",
+    "previewNote": "Illustrative preview; live product is on exragpro.vercel.app."
   }
 }

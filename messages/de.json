@@ -142,5 +142,18 @@
       "web": "Für Landing/Web: klare Message-Hierarchie, schnelle Ladezeiten und ein messbarer CTA-Flow. Danach verbessern wir die Conversion mit A/B-Tests. Wer ist deine Zielgruppe und in welcher Sprache?",
       "default": "Super! Lass mich deine Absicht kurz erfassen: Was willst du bauen und was sollen Nutzer auf der Seite tun? Schreib 2-3 Sätze, dann simuliere ich einen Plan."
     }
+  },
+  "exrag": {
+    "eyebrow": "ExRAG — Assistenten-Plattform",
+    "title": "Unser Fokus: persönliche Assistenten & Chatbots",
+    "lead": "UzunWerk setzt an erster Stelle auf maßgeschneiderte persönliche Assistenten und intelligente Chatbots für Ihre Marke. Mit ExRAG verbinden Sie Firmenwissen aus PDFs per RAG und betten ein Widget per Einzeiler-Script in Ihre Website ein.",
+    "demoHint": "Möchten Sie es live sehen? Wir vereinbaren gern eine kurze Demo — schreiben Sie uns einfach über Kontakt.",
+    "f1": "PDF-Upload im Dashboard; kontextbezogene, konsistente Antworten",
+    "f2": "Einbettbares Widget — kein eigener Server nötig",
+    "f3": "Unternehmenskonsole und Public-Key-Mandantenverwaltung",
+    "ctaPlatform": "Zur ExRAG-Plattform",
+    "ctaDemo": "Demo anfragen",
+    "brandLine": "UzunWerk Persönlicher Assistent",
+    "previewNote": "Illustrative Vorschau; Live-Produkt unter exragpro.vercel.app."
   }
 }

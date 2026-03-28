@@ -142,5 +142,18 @@
       "web": "Landing & web için önerim: mesaj hiyerarşisi, hızlı yükleme ve ölçülebilir CTA akışı. Sonrasında A/B test ile dönüşümü artırırız. Site dili ve hedef kitle kim?",
       "default": "Süper! Hızlıca niyetini yakalayayım: hedefin ne ve kullanıcılar sitede ne yapmak istiyor? İstersen 2-3 cümleyle projeni anlat, sana simüle bir plan çıkarayım."
     }
+  },
+  "exrag": {
+    "eyebrow": "ExRAG — kişisel asistan platformu",
+    "title": "Önceliğimiz: kişisel asistanlar ve chatbotlar",
+    "lead": "UzunWerk’in bir numaralı odağı, markanıza özel kişisel asistanlar ve akıllı chatbotlardır. ExRAG ile şirket bilginizi PDF üzerinden RAG’a bağlayıp tek satır embed script ile sitenize ekleyebilirsiniz.",
+    "demoHint": "Canlı ürünü birlikte görmek isterseniz kısa bir demo planlayabiliriz — iletişimden bize yazmanız yeterli.",
+    "f1": "Panodan PDF yükleme; bağlama dayalı, tutarlı yanıtlar",
+    "f2": "Gömülebilir widget — ayrı sunucu şart değil",
+    "f3": "Şirket paneli ve public key ile çoklu kiracı yönetimi",
+    "ctaPlatform": "ExRAG platformuna git",
+    "ctaDemo": "Demo talep et",
+    "brandLine": "UzunWerk Kişisel Asistan",
+    "previewNote": "Görsel temsil; canlı ortam exragpro.vercel.app üzerindedir."
   }
 }
