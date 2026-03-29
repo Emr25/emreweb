@@ -1,11 +1,36 @@
 "use client";
 
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 
 const EXRAG_URL = "https://exragpro.vercel.app/";
 
 const featureKeys = ["f1", "f2", "f3"] as const;
+
+/** Encode each path segment so spaces and Unicode in `/public` filenames work in URLs. */
+function encodePublicPath(path: string): string {
+  const trimmed = path.startsWith("/") ? path.slice(1) : path;
+  return "/" + trimmed.split("/").map(encodeURIComponent).join("/");
+}
+
+const dashboardShots = [
+  {
+    src: "/kişisel ayarlar.png",
+    captionKey: "dashboardCaptionPersonalization" as const,
+    altKey: "dashboardAltPersonalization" as const,
+  },
+  {
+    src: "/pdf yükleme yeri.png",
+    captionKey: "dashboardCaptionPdf" as const,
+    altKey: "dashboardAltPdf" as const,
+  },
+  {
+    src: "/sohbet geçmişi.png",
+    captionKey: "dashboardCaptionChat" as const,
+    altKey: "dashboardAltChat" as const,
+  },
+];
 
 export function ExragPlatformSection() {
   const t = useTranslations("exrag");
@@ -26,8 +51,8 @@ export function ExragPlatformSection() {
           <div className="pointer-events-none absolute -right-32 top-0 h-80 w-80 rounded-full bg-cyan-500/12 blur-[100px]" />
           <div className="pointer-events-none absolute -left-24 bottom-0 h-64 w-64 rounded-full bg-violet-600/10 blur-[90px]" />
 
-          <div className="relative grid gap-12 lg:grid-cols-[1.15fr_0.85fr] lg:items-center">
-            <div>
+          <div className="relative space-y-14">
+            <div className="max-w-3xl">
               <span className="inline-flex items-center gap-2 rounded-full border border-cyan-500/30 bg-cyan-500/10 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-cyan-200/95">
                 <motion.span
                   className="h-1.5 w-1.5 rounded-full bg-cyan-400"
@@ -92,55 +117,50 @@ export function ExragPlatformSection() {
             </div>
 
             <motion.div
-              initial={{ opacity: 0, y: 16 }}
+              initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.1 }}
-              className="relative mx-auto w-full max-w-md lg:mx-0 lg:max-w-none"
+              viewport={{ once: true, margin: "-40px" }}
+              transition={{ duration: 0.5 }}
+              className="relative border-t border-white/10 pt-12"
             >
-              <div className="rounded-2xl border border-white/10 bg-black/40 p-1 shadow-2xl shadow-black/50 backdrop-blur-md">
-                <div className="flex items-center gap-2 border-b border-white/5 px-4 py-3">
-                  <div className="flex gap-1.5">
-                    <span className="h-2.5 w-2.5 rounded-full bg-red-500/80" />
-                    <span className="h-2.5 w-2.5 rounded-full bg-amber-500/80" />
-                    <span className="h-2.5 w-2.5 rounded-full bg-emerald-500/80" />
-                  </div>
-                  <span className="ml-2 truncate text-xs text-zinc-500">
-                    exragpro.vercel.app
-                  </span>
-                </div>
-                <div className="p-6 sm:p-8">
-                  <div className="flex items-start gap-4">
-                    <motion.div
-                      className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-cyan-500/25 to-violet-600/20 font-display text-2xl font-bold text-white ring-1 ring-cyan-500/30"
-                      animate={{
-                        boxShadow: [
-                          "0 0 0 0 rgba(34,211,238,0.25)",
-                          "0 0 28px 2px rgba(34,211,238,0.2)",
-                          "0 0 0 0 rgba(34,211,238,0.25)",
-                        ],
-                      }}
-                      transition={{ duration: 3, repeat: Infinity }}
-                    >
-                      E
-                    </motion.div>
-                    <div>
-                      <div className="font-display text-lg font-semibold text-white">
-                        {t("brandLine")}
-                      </div>
-                      <p className="mt-1 text-sm text-zinc-500">PDF · RAG · Widget</p>
+              <h3 className="font-display text-xl font-semibold text-white sm:text-2xl">
+                {t("dashboardGalleryTitle")}
+              </h3>
+              <p className="mt-2 max-w-3xl text-sm leading-relaxed text-zinc-400 sm:text-base">
+                {t("dashboardGalleryLead")}
+              </p>
+
+              <div className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-3 sm:gap-4 lg:gap-5">
+                {dashboardShots.map((shot, i) => (
+                  <motion.figure
+                    key={shot.src}
+                    initial={{ opacity: 0, y: 14 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: 0.06 * i, duration: 0.45 }}
+                    className="group flex min-w-0 flex-col overflow-hidden rounded-2xl border border-white/10 bg-zinc-950/90 shadow-lg shadow-black/40 ring-1 ring-white/5"
+                  >
+                    <div className="relative aspect-[4/3] w-full overflow-hidden bg-zinc-900">
+                      <Image
+                        src={encodePublicPath(shot.src)}
+                        alt={t(shot.altKey)}
+                        fill
+                        priority={i === 0}
+                        quality={90}
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 33vw, 360px"
+                        className="object-cover object-top transition-transform duration-300 group-hover:scale-[1.02]"
+                      />
                     </div>
-                  </div>
-                  <div className="mt-6 space-y-3 rounded-xl border border-white/5 bg-zinc-900/50 p-4">
-                    <div className="h-2 w-3/4 rounded bg-zinc-700/80" />
-                    <div className="h-2 w-full rounded bg-zinc-800/80" />
-                    <div className="h-2 w-5/6 rounded bg-zinc-800/80" />
-                  </div>
-                  <p className="mt-4 text-center text-xs text-zinc-600">
-                    {t("previewNote")}
-                  </p>
-                </div>
+                    <figcaption className="border-t border-white/5 px-3 py-2.5 text-xs leading-snug text-zinc-400 sm:text-sm">
+                      {t(shot.captionKey)}
+                    </figcaption>
+                  </motion.figure>
+                ))}
               </div>
+
+              <p className="mt-8 text-center text-xs text-zinc-600">
+                {t("previewNote")}
+              </p>
             </motion.div>
           </div>
         </motion.div>

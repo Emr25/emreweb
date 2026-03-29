@@ -154,6 +154,14 @@
     "ctaPlatform": "ExRAG platformuna git",
     "ctaDemo": "Demo talep et",
     "brandLine": "UzunWerk Kişisel Asistan",
-    "previewNote": "Görsel temsil; canlı ortam exragpro.vercel.app üzerindedir."
+    "previewNote": "Görsel temsil; canlı ortam exragpro.vercel.app üzerindedir.",
+    "dashboardGalleryTitle": "ExRAG panelinden görünümler",
+    "dashboardGalleryLead": "PDF bilgi tabanı, sohbet geçmişi ve kişiselleştirme — ürünün gerçek arayüzünden kareler.",
+    "dashboardCaptionPdf": "PDF belgeler — yükleme ve RAG için parçalama",
+    "dashboardCaptionChat": "Sohbet geçmişi — widget ve panel konuşmaları",
+    "dashboardCaptionPersonalization": "Kişiselleştirme — bot adı, talimatlar ve public key",
+    "dashboardAltPdf": "ExRAG şirket paneli: PDF belgeler sayfası",
+    "dashboardAltChat": "ExRAG şirket paneli: sohbet geçmişi listesi",
+    "dashboardAltPersonalization": "ExRAG şirket paneli: kişiselleştirme ayarları"
   }
 }

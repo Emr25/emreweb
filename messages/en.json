@@ -154,6 +154,14 @@
     "ctaPlatform": "Open ExRAG platform",
     "ctaDemo": "Request a demo",
     "brandLine": "UzunWerk Personal Assistant",
-    "previewNote": "Illustrative preview; live product is on exragpro.vercel.app."
+    "previewNote": "Illustrative preview; live product is on exragpro.vercel.app.",
+    "dashboardGalleryTitle": "Screens from the ExRAG dashboard",
+    "dashboardGalleryLead": "Knowledge base uploads, chat history, and personalization — real UI from the product.",
+    "dashboardCaptionPdf": "PDF documents — upload and chunking for RAG",
+    "dashboardCaptionChat": "Chat history — widget and panel conversations",
+    "dashboardCaptionPersonalization": "Personalization — bot name, instructions, and public key",
+    "dashboardAltPdf": "ExRAG company panel: PDF documents page",
+    "dashboardAltChat": "ExRAG company panel: chat history list",
+    "dashboardAltPersonalization": "ExRAG company panel: personalization settings"
   }
 }
