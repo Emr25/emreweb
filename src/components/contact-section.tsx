@@ -12,13 +12,21 @@ export function ContactSection() {
   const [brief, setBrief] = useState<BriefKey>("web");
   const [copied, setCopied] = useState(false);
 
-  const mailto = useMemo(() => {
+  const { mailto, gmailComposeUrl } = useMemo(() => {
     const typeLabel = t(`types.${brief}`);
-    const subject = encodeURIComponent(t("emailSubject", { type: typeLabel }));
-    const body = encodeURIComponent(
-      `${t("emailBodyIntro")}\n\n${typeLabel}\n\n${t("emailBodyClosing")}`
-    );
-    return `mailto:${email}?subject=${subject}&body=${body}`;
+    const subject = t("emailSubject", { type: typeLabel });
+    const body = `${t("emailBodyIntro")}\n\n${typeLabel}\n\n${t("emailBodyClosing")}`;
+    const mailtoHref = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const gmailParams = new URLSearchParams({
+      view: "cm",
+      fs: "1",
+      tf: "1",
+      to: email,
+      su: subject,
+      body,
+    });
+    const gmailHref = `https://mail.google.com/mail/?${gmailParams.toString()}`;
+    return { mailto: mailtoHref, gmailComposeUrl: gmailHref };
   }, [brief, email, t]);
 
   const copyEmail = async () => {
@@ -152,13 +160,15 @@ export function ContactSection() {
                 </div>
 
                 <motion.a
-                  href={mailto}
-                  className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-cyan-500/15 px-5 py-3.5 text-sm font-semibold text-cyan-200 shadow-[0_0_0_1px_rgba(34,211,238,0.2)] transition-colors hover:bg-cyan-500/25"
+                  href={gmailComposeUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-2xl border border-white/15 bg-white/[0.06] px-5 py-3.5 text-sm font-semibold text-zinc-100 shadow-[0_0_0_1px_rgba(255,255,255,0.06)] transition-colors hover:border-red-400/35 hover:bg-red-500/10 hover:text-white"
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                 >
-                  {t("mailCta")}
-                  <span aria-hidden>→</span>
+                  {t("gmailCta")}
+                  <span aria-hidden>↗</span>
                 </motion.a>
               </div>
             </motion.div>

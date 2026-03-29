@@ -103,7 +103,7 @@
     },
     "compose": "Mail draft",
     "preview": "Short preview",
-    "mailCta": "Create mail",
+    "gmailCta": "Open in Gmail",
     "copy": "Copy email",
     "copied": "Copied",
     "emailSubject": "{type} - UzunWerk",

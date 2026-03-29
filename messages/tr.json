@@ -103,7 +103,7 @@
     },
     "compose": "Mail taslağı",
     "preview": "Kısaca önizleme",
-    "mailCta": "Maili oluştur",
+    "gmailCta": "Gmail'de aç",
     "copy": "E-postayı kopyala",
     "copied": "Kopyalandı",
     "emailSubject": "{type} - UzunWerk",
